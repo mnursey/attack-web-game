@@ -30,7 +30,7 @@ function setup(){
 
   cameraPos = [ 0 - canvas.width / 2, 0 - canvas.height / 2];
 
-  socket = new WebSocket('ws://192.168.1.92');
+  socket = new WebSocket('ws://mnursey.servehttp.com:20490');
 
   socket.onopen = function(){
     updateGame();
